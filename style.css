@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#38afff, #bf9d58);
+}
+
+.calculator {
+  max-width: 580px;
+  box-shadow: 0 0 75px 30px rgb(248, 231, 75);
+}
+
+.calculator__display {
+  padding: 30px 50px;
+  font-size: 3em;
+  text-align: right;
+  border: 2px solid white;
+  overflow: hidden;
+}
+
+.calculator__functions {
+  padding: 2em 2em;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid white;
+}
+.calculator__functions button {
+  flex: 0 1 25%;
+  height: 70px;
+  color: #ffffff;
+  font-size: 2em;
+  background: rgb(51, 83, 108);
+  border: 2px solid rgb(220, 220, 220);
+
+}
+
+.calculator__functions button:hover{
+  background: rgb(60, 90, 120);
+} 
+.calculator__functions button.btn--large {
+  flex: 0 1 50%;
+}
